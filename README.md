@@ -50,9 +50,10 @@ Each model is evaluated based on its performance in classifying RFID tags as sta
 	</div>
 </div>
 
-<p align="center">
-	<img src="./results/RF_ROC_curve_test.png" alt="ROC curve" style="width: 700px">
-</p>
+<div style="text-align: center;" align="center">
+	<img src="./results/RF_ROC_curve_test.png" alt="ROC curve" style="width: 350px; margin-right: 20px;">
+	<p>ROC curve</p>
+</div>
 
 **No overfitting**, test set macro accuracy: **99%**.
 
@@ -65,13 +66,15 @@ Trained for 100 epochs.
 	<p>Test set Confusion Matrix</p>
 </div>
 
-<p align="center">
-	<img src="./results/accuracy_epochs.png" alt="Accuracy over 100 epochs" style="width: 700px">
-</p>
+<div style="text-align: center;" align="center">
+	<img src="./results/accuracy_epochs.png" alt="Accuracy over 100 epochs" style="width: 500px; margin-right: 20px;">
+	<p>Accuracy over 100 epochs</p>
+</div>
 
-<p align="center">
-	<img src="./results/loss_epochs.png" alt="Loss over 100 epochs" style="width: 700px">
-</p>
+<div style="text-align: center;" align="center">
+	<img src="./results/loss_epochs.png" alt="Loss over 100 epochs" style="width: 500px; margin-right: 20px;">
+	<p>Loss over 100 epochs</p>
+</div>
 
 Great accuracy of **98.98%**, no overfitting.
 
