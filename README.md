@@ -39,20 +39,14 @@ Each model is evaluated based on its performance in classifying RFID tags as sta
 
 ### Random Forest
 
-<div style="display: flex; justify-content: center;" align="center">
-	<div style="text-align: center;" align="center">
-		<img src="./results/RF_confusion_matrix_train.png" alt="Training set confusion matrix" style="width: 300px; margin-right: 20px;">
-		<p>Training set Confusion Matrix</p>
-	</div>
-	<div style="text-align: center;" align="center">
-		<img src="./results/RF_confusion_matrix_test.png" alt="Test set confusion matrix" style="width: 300px; margin-right: 20px;">
-		<p>Test set Confusion Matrix</p>
-	</div>
-</div>
+<p align="center">
+  <img alt="Light" src="./results/RF_confusion_matrix_train.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./results/RF_confusion_matrix_test.png" width="45%">
+</p>
 
 <div style="text-align: center;" align="center">
-	<img src="./results/RF_ROC_curve_test.png" alt="ROC curve" style="width: 350px; margin-right: 20px;">
-	<p>ROC curve</p>
+	<img src="./results/RF_ROC_curve_moving.png" alt="ROC curve" style="width: 350px; margin-right: 20px;">
 </div>
 
 **No overfitting**, test set macro accuracy: **99%**.
@@ -63,8 +57,9 @@ Trained for 100 epochs.
 
 <div style="text-align: center;" align="center">
 	<img src="./results/NN_confusion_matrix_test.png" alt="Test set confusion matrix" style="width: 350px; margin-right: 20px;">
-	<p>Test set Confusion Matrix</p>
 </div>
+
+<br></br>
 
 <div style="text-align: center;" align="center">
 	<img src="./results/accuracy_epochs.png" alt="Accuracy over 100 epochs" style="width: 500px; margin-right: 20px;">
