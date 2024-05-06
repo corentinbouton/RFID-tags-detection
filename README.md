@@ -2,7 +2,7 @@
 
 ## Overview
 
-The RFID Tag Movement Detection project aims to develop an artificial intelligence (AI) algorithm using machine learning and deep learning techniques to identify whether RFID tags are stationary or moving. This system has applications in various settings, such as retail stores and industrial environments, for detecting theft, tracking assets, and optimizing inventory management.
+The RFID Tag Movement Detection project aims to develop an artificial intelligence algorithm using machine learning and deep learning techniques to identify whether RFID tags are stationary or moving. This system has applications in various settings, such as retail stores and industrial environments, for detecting theft, tracking assets, and optimizing inventory management.
 
 ## Project Goals
 
